@@ -508,6 +508,16 @@ Id                             Name                     Type   Size     Created
 0B3X9GlR6EmbnNW5CTV8xdFkxTjg   gdrive-linux-mips64le    bin    8.5 MB   2016-02-22 21:07:07
 0B3X9GlR6EmbnZ1NGS25FdEVlWEk   gdrive-osx-x64           bin    8.3 MB   2016-02-21 20:22:13
 ```
+#### List file which import from other
+```
+# gdrive list -m 0 --query "" --name-width 0
+Id                             Name                                                    Type   Size     Created
+0B8uTQta6AZ6xVHJ1NXhEZXZZMFk   the-complete-piano-course update 26-12-2016.part4.rar   bin    4.0 GB   2016-02-26 00:51:22
+0B8uTQta6AZ6xT3F2SVhNcHowZEE   the-complete-piano-course update 26-12-2016.part3.rar   bin    4.3 GB   2016-02-26 00:46:48
+0B8uTQta6AZ6xX3NvWVVkT0g3ckU   the-complete-piano-course update 26-12-2016.part2.rar   bin    4.3 GB   2016-02-26 00:41:03
+0B8uTQta6AZ6xdTN6cXI4XzNGdlk   the-complete-piano-course update 26-12-2016.part1.rar   bin    4.3 GB   2016-02-26 00:34:52
+```
+
 
 #### Upload file
 ```
